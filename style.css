@@ -30,8 +30,8 @@ header{
 
 
 header h1{
-  font-size: 1.8em;
-  color: #ffffff;
+  font-size: 1.5em;
+  color: #fdb513;
 }
 nav ul {
   list-style: none;
@@ -51,7 +51,7 @@ nav ul li a {
 
 /* Hover Effect */
 nav ul li a:hover {
-  color: black; 
+  color: #fdb513; 
   text-shadow: 0px 2px 5px rgba(50, 205, 50, 0.8);
   transform: scale(1.5); 
   text-decoration: underline;
@@ -61,8 +61,9 @@ nav ul li a:hover {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  gap: 5px;
-  padding-left: 10px;
+  gap:5px;
+  position:absolute;
+  right: 15px;
 }
 
 .menu-icon span {
@@ -116,9 +117,12 @@ nav ul li a:hover {
 
 #hero {
   padding: 50px 20px;
-  background: linear-gradient(to bottom, #008080,#32cd32);
-  color: #ffffff;
-  height:350px;
+  background: linear-gradient(135deg, rgba(0, 128, 128, 0.8), rgba(50, 205, 50, 0.8)), 
+  url('hero-image.png'); 
+  background-size: cover; 
+  background-position: center; 
+  
+  height:60vh;
 }
 #hero p{
   font-size: 1.2rem;
@@ -190,8 +194,9 @@ nav ul li a:hover {
 
 /* Container for Buttons */
 #hero {
-  text-align: center; /* Center the buttons within the section */
+  text-align: center; 
 }
+
 #hero .button-container {
   display: inline-flex; /* Align buttons horizontally */
   gap: 15px; /* Add spacing between buttons */
@@ -299,6 +304,7 @@ section {
 }
 
 .about-text {
+  
   flex: 1; /* Text takes equal space */
   min-width: 300px;
   text-align: left; /* Align text to the left */
@@ -311,6 +317,7 @@ section {
   padding: 40px 20px;
   background: linear-gradient(45deg, #121212 20%, #32CD32 70%);
   color: #F8F9FA; 
+  height: 100vh;
 }
 
 /* Container to Hold Left and Right Sections */
@@ -414,6 +421,7 @@ section {
   background-color: #f8f9fa; 
   color: #121212; 
   text-align: left;
+  height: 100vh;
 }
 
 #skills h2 {
