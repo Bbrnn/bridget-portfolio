@@ -119,8 +119,7 @@ nav ul li a:hover {
   padding: 50px 20px;
   background: linear-gradient(135deg, rgba(0, 128, 128, 0.8), rgba(50, 205, 50, 0.8)), 
   url('hero-image.png'); 
-  background-size: cover; 
-  background-position: center; 
+  
   
   height:60vh;
 }
