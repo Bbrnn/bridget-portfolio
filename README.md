@@ -1,2 +1,2 @@
-# plp-hackaathon-1
+# plp-hackathon-1
 A simple html,css portfolio
